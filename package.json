@@ -1,0 +1,27 @@
+{
+  "name": "update-element-ui-theme",
+  "version": "1.0.0",
+  "main": "dist/index.esm.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-terser": "7.0.2"
+  },
+  "keywords": [
+    "update element-ui theme",
+    "element-ui theme"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "files": [
+    "dist/index.esm.js",
+    "dist/index.umd.js",
+    "README.md"
+  ]
+}
